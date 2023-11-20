@@ -72,18 +72,111 @@
 /* Outros estilos conforme necessário */
 
 .botaoAdicionar {
-  background-color: green;
+  background-color: grey;
   color: white;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.botaoAdicionarPessoa {
+  background-color: grey;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 10px;
+  display: block;
 }
 
 .botaoAdicionar:hover {
-  background-color: grey;
+  background-color: green;
 }
 
-/* ConsultaProjetos.css */
+.botaoAdicionarPessoa:hover {
+  background-color: green;
+}
+
+.adicionar-pessoa-container {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-bottom: 1px solid #ccc; /* Adicionando a borda apenas na parte inferior */
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  outline: none; /* Remove o contorno ao focar */
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 3px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.adicionar-projeto-container {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-bottom: 1px solid #ccc; /* Adicionando a borda apenas na parte inferior */
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  outline: none; /* Remove o contorno ao focar */
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 3px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
